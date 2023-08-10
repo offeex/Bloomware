@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "bloomware",
+  "version": "1.2",
+
+  "name": "Bloomware",
+  "description": "Bloomware is a free anarchy utility mod for the latest stable version of Minecraft.",
+  "authors": [
+    "OffeeX",
+    "DiOnFire",
+    "Rikonardo"
+  ],
+  "contact": {
+    "GitHub": "https://github.com/TheBreakery/Bloomware",
+    "Breakery Discord": "https://stashes.xyz"
+  },
+
+  "license": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": ["com.llamalad7.mixinextras.MixinExtrasBootstrap::init"],
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "me.offeex.bloomware.Bloomware::init"
+      }]
+  },
+  "depends": {
+    "fabric-language-kotlin": ">=1.9.2+kotlin.1.8.10",
+    "minecraft": "1.19.4"
+  },
+  "mixins": [
+    "bloomware.mixins.json"
+  ],
+  "accessWidener": "bloomware.accesswidener"
+}

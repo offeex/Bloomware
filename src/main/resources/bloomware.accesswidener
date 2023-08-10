@@ -1,0 +1,15 @@
+accessWidener	v1	named
+
+accessible class net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask
+accessible class net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask$RenderData
+
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractTypeHandler
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractType
+
+accessible method net/minecraft/entity/LivingEntity applyArmorToDamage (Lnet/minecraft/entity/damage/DamageSource;F)F
+accessible method net/minecraft/entity/LivingEntity modifyAppliedDamage (Lnet/minecraft/entity/damage/DamageSource;F)F
+
+accessible class net/minecraft/client/render/RenderLayer$MultiPhase
+accessible class net/minecraft/client/render/RenderLayer$MultiPhaseParameters
+accessible class net/minecraft/client/render/RenderPhase$TextureBase
+accessible method net/minecraft/client/render/RenderLayer$MultiPhase getPhases ()Lnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;
