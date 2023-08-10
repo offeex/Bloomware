@@ -16,4 +16,4 @@ Thanks to nobody who had faith in this.
 With that being said, i've left minecraft community at long last, 'cause this mod have been last thing connecting myself and 2b2t/Minecraft community for these years. 
 It drained most of my energy and passion to anything during these 2 years.
 
-Now, as im releasing this, feel free to use source code as you wish, just make sure to credit me somewhere.
+Now, as im releasing this, have fun pasting, just make sure to credit me somewhere.
